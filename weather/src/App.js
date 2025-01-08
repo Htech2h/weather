@@ -50,7 +50,7 @@ function App() {
 
       {/* Show loading message while fetching data */}
       {loading ? (
-        <div className="spinner"></div>
+        <p>Loading weather data...</p>
       ) : weatherData ? (
         <Display data={weatherData} /> // Pass weatherData to Display only if it's available
       ) : (

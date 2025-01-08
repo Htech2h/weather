@@ -14,8 +14,8 @@ export default function SearchBar(props){
 
     return (
         <form onSubmit={handleSubmit}>
-        <input onChange={handleChange} id="search" type="text" placeholder="seach city" />
-        <input className="button" type="submit" value="Search"/>
+            <input onChange={handleChange} id="search" type="text" placeholder="seach city" />
+            <input className="button" type="submit" value="Search"/>
         </form>
     );
 }
